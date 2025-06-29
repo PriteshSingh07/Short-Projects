@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(87, 99, 95);
+}
+
+*{
+    /* margin: 0%; */
+}
+
+.container{
+    width: 100vh;
+}
+
+.dropdown{
+    display: inline-block;
+
+    /* width: 100%; */
+    /* height: 300px; */
+    /* background-color: rgb(28, 208, 208); */
+}
+
+
+.container .div1 .box1{
+    width: 50%;
+    height: 120px;
+    background-color: blue;
+}
+
+.dropdown a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(161, 160, 160);
+    width: 200px;
+    height: 50px;
+    transition: 0.5s;
+
+}
+
+.container .dropdown button{
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    transition: 0.5s;
+}
+
+.container .dropdown .content{
+    display: none;
+    height: auto;
+    width: auto;
+    transition: 0.5s;
+}
+
+.container .dropdown:hover .content{
+    display: block;
+    position: absolute;
+    opacity: 1;   
+}
+
+.container .dropdown button:hover{
+    background-color: rgb(77, 255, 163);
+    transition: 0.3s;
+}
+
+.dropdown a:hover{
+    background-color: rgb(255, 255, 255);
+}
